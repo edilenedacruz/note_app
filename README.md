@@ -1,24 +1,20 @@
-# README
+# Note App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple REST API built with Ruby on Rails and PostgreSQL.
 
-Things you may want to cover:
+## Implementation & Design Decisions
 
-* Ruby version
+Due to local environment setup challenges that took approximately 90 minutes to resolve, I prioritized implementing the core **Create** functionality (`POST /api/v1/notes`).
 
-* System dependencies
+I chose Rails API-only mode to keep the application lightweight and focused on REST endpoints.
 
-* Configuration
+## What I Would Improve With More Time
 
-* Database creation
+- Complete the remaining CRUD operations (Read, Update, Delete).
+- Expand automated test coverage using Minitest or RSpec.
+- Add a User model with authentication and permission settings
+- Add comprehensive API documentation and local setup instructions.
+- Provide seed data for development and testing.
+- Improve the data model and introduce additional features.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+My priority was to deliver a working foundation that could be extended into a complete REST API.
